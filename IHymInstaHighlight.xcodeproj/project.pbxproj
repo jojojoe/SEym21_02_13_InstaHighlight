@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7102E46CCCF9A6B6528309B /* Pods_IHymInstaHighlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C8C2B7B9ABCA06AC82B743 /* Pods_IHymInstaHighlight.framework */; };
+		EBD23540265258BE0018F41B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2353F265258BE0018F41B /* AppDelegate.swift */; };
+		EBD23542265258BE0018F41B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD23541265258BE0018F41B /* SceneDelegate.swift */; };
+		EBD23544265258BE0018F41B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD23543265258BE0018F41B /* ViewController.swift */; };
+		EBD23547265258BE0018F41B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD23545265258BE0018F41B /* Main.storyboard */; };
+		EBD23549265258C10018F41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD23548265258C10018F41B /* Assets.xcassets */; };
+		EBD2354C265258C10018F41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD2354A265258C10018F41B /* LaunchScreen.storyboard */; };
+		EBD23557265259320018F41B /* IHymMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD23556265259320018F41B /* IHymMainVC.swift */; };
+		EBD2355A26526EC60018F41B /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2355926526EC60018F41B /* CoinManager.swift */; };
+		EBD2355C26526F160018F41B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2355B26526F160018F41B /* DataManager.swift */; };
+		EBD2356226526F2F0018F41B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBD2355E26526F2F0018F41B /* GoogleService-Info.plist */; };
+		EBD2356326526F2F0018F41B /* APLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2355F26526F2F0018F41B /* APLoginVC.swift */; };
+		EBD2356426526F2F0018F41B /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2356026526F2F0018F41B /* Keychain.swift */; };
+		EBD2356526526F2F0018F41B /* ApLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2356126526F2F0018F41B /* ApLoginManager.swift */; };
+		EBD2356926526F500018F41B /* TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2356826526F500018F41B /* TEST.m */; };
+		EBD2357526526F590018F41B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2356D26526F590018F41B /* UIView+Frame.m */; };
+		EBD2357626526F590018F41B /* UIColor+SSToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2356E26526F590018F41B /* UIColor+SSToolkitAdditions.m */; };
+		EBD2357726526F590018F41B /* TouchStuffView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2357326526F590018F41B /* TouchStuffView.m */; };
+		EBD2357826526F590018F41B /* TouchStuffViewPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2357426526F590018F41B /* TouchStuffViewPrivate.m */; };
+		EBD2357A26526F710018F41B /* ExtensionForIH.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2357926526F710018F41B /* ExtensionForIH.swift */; };
+		EBD2357F26527F7D0018F41B /* IHymStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2357E26527F7D0018F41B /* IHymStoreVC.swift */; };
+		EBD2358126527F8C0018F41B /* IHymSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2358026527F8C0018F41B /* IHymSettingVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07EF5361099B724BEBF5D760 /* Pods-IHymInstaHighlight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IHymInstaHighlight.release.xcconfig"; path = "Target Support Files/Pods-IHymInstaHighlight/Pods-IHymInstaHighlight.release.xcconfig"; sourceTree = "<group>"; };
+		13C8C2B7B9ABCA06AC82B743 /* Pods_IHymInstaHighlight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IHymInstaHighlight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		993984F612BEC9B85C0301BC /* Pods-IHymInstaHighlight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IHymInstaHighlight.debug.xcconfig"; path = "Target Support Files/Pods-IHymInstaHighlight/Pods-IHymInstaHighlight.debug.xcconfig"; sourceTree = "<group>"; };
+		EBD2353C265258BE0018F41B /* IHymInstaHighlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHymInstaHighlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD2353F265258BE0018F41B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBD23541265258BE0018F41B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBD23543265258BE0018F41B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBD23546265258BE0018F41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD23548265258C10018F41B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD2354B265258C10018F41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD2354D265258C10018F41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD23556265259320018F41B /* IHymMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHymMainVC.swift; sourceTree = "<group>"; };
+		EBD2355926526EC60018F41B /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		EBD2355B26526F160018F41B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EBD2355E26526F2F0018F41B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EBD2355F26526F2F0018F41B /* APLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APLoginVC.swift; sourceTree = "<group>"; };
+		EBD2356026526F2F0018F41B /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		EBD2356126526F2F0018F41B /* ApLoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApLoginManager.swift; sourceTree = "<group>"; };
+		EBD2356626526F4F0018F41B /* IHymInstaHighlight-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IHymInstaHighlight-Bridging-Header.h"; sourceTree = "<group>"; };
+		EBD2356726526F500018F41B /* TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEST.h; sourceTree = "<group>"; };
+		EBD2356826526F500018F41B /* TEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEST.m; sourceTree = "<group>"; };
+		EBD2356C26526F590018F41B /* UIColor+SSToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SSToolkitAdditions.h"; sourceTree = "<group>"; };
+		EBD2356D26526F590018F41B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		EBD2356E26526F590018F41B /* UIColor+SSToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SSToolkitAdditions.m"; sourceTree = "<group>"; };
+		EBD2356F26526F590018F41B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		EBD2357126526F590018F41B /* TouchStuffViewPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchStuffViewPrivate.h; sourceTree = "<group>"; };
+		EBD2357226526F590018F41B /* TouchStuffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchStuffView.h; sourceTree = "<group>"; };
+		EBD2357326526F590018F41B /* TouchStuffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchStuffView.m; sourceTree = "<group>"; };
+		EBD2357426526F590018F41B /* TouchStuffViewPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchStuffViewPrivate.m; sourceTree = "<group>"; };
+		EBD2357926526F710018F41B /* ExtensionForIH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForIH.swift; sourceTree = "<group>"; };
+		EBD2357E26527F7D0018F41B /* IHymStoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHymStoreVC.swift; sourceTree = "<group>"; };
+		EBD2358026527F8C0018F41B /* IHymSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHymSettingVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD23539265258BE0018F41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7102E46CCCF9A6B6528309B /* Pods_IHymInstaHighlight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A43590AA8B234319FF2CD73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13C8C2B7B9ABCA06AC82B743 /* Pods_IHymInstaHighlight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82DC497476C0BF18EC3A0D8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				993984F612BEC9B85C0301BC /* Pods-IHymInstaHighlight.debug.xcconfig */,
+				07EF5361099B724BEBF5D760 /* Pods-IHymInstaHighlight.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EBD23533265258BE0018F41B = {
+			isa = PBXGroup;
+			children = (
+				EBD2353E265258BE0018F41B /* IHymInstaHighlight */,
+				EBD2353D265258BE0018F41B /* Products */,
+				82DC497476C0BF18EC3A0D8E /* Pods */,
+				6A43590AA8B234319FF2CD73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD2353D265258BE0018F41B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2353C265258BE0018F41B /* IHymInstaHighlight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD2353E265258BE0018F41B /* IHymInstaHighlight */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2356A26526F590018F41B /* OC_File */,
+				EBD23555265258F10018F41B /* Page */,
+				EBD23553265258E30018F41B /* Root */,
+			);
+			path = IHymInstaHighlight;
+			sourceTree = "<group>";
+		};
+		EBD23553265258E30018F41B /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2353F265258BE0018F41B /* AppDelegate.swift */,
+				EBD23541265258BE0018F41B /* SceneDelegate.swift */,
+				EBD23543265258BE0018F41B /* ViewController.swift */,
+				EBD23545265258BE0018F41B /* Main.storyboard */,
+				EBD23548265258C10018F41B /* Assets.xcassets */,
+				EBD2354A265258C10018F41B /* LaunchScreen.storyboard */,
+				EBD2354D265258C10018F41B /* Info.plist */,
+				EBD2356726526F500018F41B /* TEST.h */,
+				EBD2356826526F500018F41B /* TEST.m */,
+				EBD2356626526F4F0018F41B /* IHymInstaHighlight-Bridging-Header.h */,
+				EBD2357926526F710018F41B /* ExtensionForIH.swift */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		EBD23554265258EC0018F41B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EBD23556265259320018F41B /* IHymMainVC.swift */,
+				EBD2357E26527F7D0018F41B /* IHymStoreVC.swift */,
+				EBD2358026527F8C0018F41B /* IHymSettingVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EBD23555265258F10018F41B /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2355D26526F2F0018F41B /* PingGuLoginManager */,
+				EBD2355826526EB00018F41B /* Manager */,
+				EBD23554265258EC0018F41B /* Main */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		EBD2355826526EB00018F41B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2355926526EC60018F41B /* CoinManager.swift */,
+				EBD2355B26526F160018F41B /* DataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EBD2355D26526F2F0018F41B /* PingGuLoginManager */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2355E26526F2F0018F41B /* GoogleService-Info.plist */,
+				EBD2355F26526F2F0018F41B /* APLoginVC.swift */,
+				EBD2356026526F2F0018F41B /* Keychain.swift */,
+				EBD2356126526F2F0018F41B /* ApLoginManager.swift */,
+			);
+			path = PingGuLoginManager;
+			sourceTree = "<group>";
+		};
+		EBD2356A26526F590018F41B /* OC_File */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2356B26526F590018F41B /* Category */,
+				EBD2357026526F590018F41B /* TouchView */,
+			);
+			path = OC_File;
+			sourceTree = "<group>";
+		};
+		EBD2356B26526F590018F41B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2356C26526F590018F41B /* UIColor+SSToolkitAdditions.h */,
+				EBD2356D26526F590018F41B /* UIView+Frame.m */,
+				EBD2356E26526F590018F41B /* UIColor+SSToolkitAdditions.m */,
+				EBD2356F26526F590018F41B /* UIView+Frame.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EBD2357026526F590018F41B /* TouchView */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2357126526F590018F41B /* TouchStuffViewPrivate.h */,
+				EBD2357226526F590018F41B /* TouchStuffView.h */,
+				EBD2357326526F590018F41B /* TouchStuffView.m */,
+				EBD2357426526F590018F41B /* TouchStuffViewPrivate.m */,
+			);
+			path = TouchView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD2353B265258BE0018F41B /* IHymInstaHighlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD23550265258C10018F41B /* Build configuration list for PBXNativeTarget "IHymInstaHighlight" */;
+			buildPhases = (
+				A71DBA0BD14C82AA4A88105A /* [CP] Check Pods Manifest.lock */,
+				EBD23538265258BE0018F41B /* Sources */,
+				EBD23539265258BE0018F41B /* Frameworks */,
+				EBD2353A265258BE0018F41B /* Resources */,
+				255A93D8DB680E70CDDEE5F7 /* [CP] Embed Pods Frameworks */,
+				C09F7DC45B5B27EF7550AE32 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IHymInstaHighlight;
+			productName = IHymInstaHighlight;
+			productReference = EBD2353C265258BE0018F41B /* IHymInstaHighlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD23534265258BE0018F41B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EBD2353B265258BE0018F41B = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = EBD23537265258BE0018F41B /* Build configuration list for PBXProject "IHymInstaHighlight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD23533265258BE0018F41B;
+			productRefGroup = EBD2353D265258BE0018F41B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD2353B265258BE0018F41B /* IHymInstaHighlight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD2353A265258BE0018F41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD2354C265258C10018F41B /* LaunchScreen.storyboard in Resources */,
+				EBD2356226526F2F0018F41B /* GoogleService-Info.plist in Resources */,
+				EBD23549265258C10018F41B /* Assets.xcassets in Resources */,
+				EBD23547265258BE0018F41B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		255A93D8DB680E70CDDEE5F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IHymInstaHighlight/Pods-IHymInstaHighlight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IHymInstaHighlight/Pods-IHymInstaHighlight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IHymInstaHighlight/Pods-IHymInstaHighlight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71DBA0BD14C82AA4A88105A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IHymInstaHighlight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C09F7DC45B5B27EF7550AE32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IHymInstaHighlight/Pods-IHymInstaHighlight-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IHymInstaHighlight/Pods-IHymInstaHighlight-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IHymInstaHighlight/Pods-IHymInstaHighlight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD23538265258BE0018F41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD2356326526F2F0018F41B /* APLoginVC.swift in Sources */,
+				EBD23557265259320018F41B /* IHymMainVC.swift in Sources */,
+				EBD2355C26526F160018F41B /* DataManager.swift in Sources */,
+				EBD23544265258BE0018F41B /* ViewController.swift in Sources */,
+				EBD23540265258BE0018F41B /* AppDelegate.swift in Sources */,
+				EBD2356926526F500018F41B /* TEST.m in Sources */,
+				EBD2356426526F2F0018F41B /* Keychain.swift in Sources */,
+				EBD23542265258BE0018F41B /* SceneDelegate.swift in Sources */,
+				EBD2355A26526EC60018F41B /* CoinManager.swift in Sources */,
+				EBD2357F26527F7D0018F41B /* IHymStoreVC.swift in Sources */,
+				EBD2357A26526F710018F41B /* ExtensionForIH.swift in Sources */,
+				EBD2357826526F590018F41B /* TouchStuffViewPrivate.m in Sources */,
+				EBD2357726526F590018F41B /* TouchStuffView.m in Sources */,
+				EBD2356526526F2F0018F41B /* ApLoginManager.swift in Sources */,
+				EBD2357626526F590018F41B /* UIColor+SSToolkitAdditions.m in Sources */,
+				EBD2357526526F590018F41B /* UIView+Frame.m in Sources */,
+				EBD2358126527F8C0018F41B /* IHymSettingVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBD23545265258BE0018F41B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD23546265258BE0018F41B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD2354A265258C10018F41B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD2354B265258C10018F41B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD2354E265258C10018F41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBD2354F265258C10018F41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD23551265258C10018F41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993984F612BEC9B85C0301BC /* Pods-IHymInstaHighlight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IHymInstaHighlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ym.IHymInstaHighlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IHymInstaHighlight/IHymInstaHighlight-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBD23552265258C10018F41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07EF5361099B724BEBF5D760 /* Pods-IHymInstaHighlight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IHymInstaHighlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ym.IHymInstaHighlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IHymInstaHighlight/IHymInstaHighlight-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD23537265258BE0018F41B /* Build configuration list for PBXProject "IHymInstaHighlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD2354E265258C10018F41B /* Debug */,
+				EBD2354F265258C10018F41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD23550265258C10018F41B /* Build configuration list for PBXNativeTarget "IHymInstaHighlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD23551265258C10018F41B /* Debug */,
+				EBD23552265258C10018F41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD23534265258BE0018F41B /* Project object */;
+}

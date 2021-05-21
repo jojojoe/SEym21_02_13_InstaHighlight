@@ -1,0 +1,7 @@
+IHymInstaHighlight.xcodeproj/xcuserdata/
+IHymInstaHighlight.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+IHymInstaHighlight.xcodeproj/project.xcworkspace/xcuserdata/
